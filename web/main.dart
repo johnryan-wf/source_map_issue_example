@@ -28,7 +28,7 @@ main() async {
 }
 
 Future<Mapping> getMapping() async {
-  var sourceMap = await HttpRequest.getString('trace_chain.dart.js.map');
+  var sourceMap = await HttpRequest.getString('main.dart.js.map');
   return parse(sourceMap);
 }
 
