@@ -1,0 +1,9 @@
+name: stack_trace_test
+dependencies:
+  stack_trace: any
+  source_map_stack_trace: any
+  source_maps: any
+  browser: any
+transformers:
+  - $dart2js:
+      sourceMaps: true
